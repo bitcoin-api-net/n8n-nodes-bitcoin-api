@@ -21,7 +21,7 @@ export class BitcoinApi implements INodeType {
 			},
 		],
 		requestDefaults: {
-			baseURL: 'https://api.bitcoin-api.net/api/v1',
+			baseURL: 'https://bitcoin-api.net/api/v1',
 			headers: {
 				Accept: 'application/json',
 				'Content-Type': 'application/json',
