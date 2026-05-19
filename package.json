@@ -1,11 +1,17 @@
 {
-	"name": "@bitcoin-api-net/n8n-nodes",
-	"version": "0.1.0",
-	"description": "Bitcoin API community node for n8n",
+	"name": "@bitcoin-api-net/n8n-nodes-bitcoin-api",
+	"version": "0.1.1",
+	"description": "The most comfortable (DX) Bitcoin API community node for n8n. Fetch prices, candles, and interact with the AI assistant.",
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://bitcoin-api.net",
 	"keywords": [
-		"n8n-community-node-package"
+		"n8n-community-node-package",
+		"bitcoin",
+		"btc",
+		"crypto",
+		"cryptocurrency",
+		"blockchain",
+		"api"
 	],
 	"author": {
 		"name": "Bitcoin API",
@@ -13,7 +19,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bitcoin-api-net/n8n-nodes.git"
+		"url": "https://github.com/bitcoin-api-net/n8n-nodes-bitcoin-api.git"
 	},
 	"scripts": {
 		"test": "node test.js",
