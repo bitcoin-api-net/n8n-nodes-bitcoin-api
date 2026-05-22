@@ -25,7 +25,8 @@
 		"test": "node test.js",
 		"build": "n8n-node build",
 		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
+		"n8n:dev": "n8n-node dev",
+		"type-check": "tsc --noEmit",
 		"lint": "n8n-node lint",
 		"lint:fix": "n8n-node lint --fix"
 	},
