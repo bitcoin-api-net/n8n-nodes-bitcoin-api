@@ -1,19 +1,16 @@
 # n8n Community Node for Bitcoin API
 
 The most comfortable (DX) Bitcoin API for developers, AI agents, and vibe coders.
-This is the official community node for [Bitcoin API](https://bitcoin-api.net), allowing you to interact with Bitcoin data and our smart AI documentation assistant right inside your n8n workflows.
+This is the official community node for [Bitcoin API](https://bitcoin-api.net), allowing you to interact with real-time Bitcoin price data right inside your n8n workflows.
 
 ## Features
 
 This node currently supports the following operations:
 
-- **Info**
-  - Get information about your current user/account status.
 - **Price**
   - **Get Price:** Get the current Bitcoin price.
-  - **Get Candles:** Get historical OHLCV candle data with customizable intervals (1m, 5m, 1h, 1d, etc.).
-- **Docs**
-  - **Ask AI:** Send natural language queries to our AI assistant to get help, examples, or code snippets based on the official Bitcoin API documentation.
+  - **Get Klines (Candles):** Get historical OHLCV candle data with customizable intervals (1m, 5m, 1h, 1d, etc.).
+  - **Get Current Kline (Candle):** Get the latest open kline (candle) for a given interval.
 
 ## How to get started
 

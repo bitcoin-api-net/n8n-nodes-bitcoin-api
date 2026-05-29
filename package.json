@@ -1,6 +1,6 @@
 {
 	"name": "@bitcoin-api-net/n8n-nodes-bitcoin-api",
-	"version": "0.1.2",
+	"version": "0.1.4",
 	"description": "The most comfortable (DX) Bitcoin API community node for n8n. Fetch prices, candles, and interact with the AI assistant.",
 	"license": "MIT",
 	"homepage": "https://bitcoin-api.net",
