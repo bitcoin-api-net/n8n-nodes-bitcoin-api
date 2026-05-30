@@ -141,7 +141,7 @@ export class BitcoinApi implements INodeType {
 				routing: {
 					request: {
 						qs: {
-							from: '={{$value}}',
+							from: '={{$value ? new Date($value).toISOString() : undefined}}',
 						},
 					},
 				},
@@ -158,7 +158,7 @@ export class BitcoinApi implements INodeType {
 				routing: {
 					request: {
 						qs: {
-							to: '={{$value}}',
+							to: '={{$value ? new Date($value).toISOString() : undefined}}',
 						},
 					},
 				},
